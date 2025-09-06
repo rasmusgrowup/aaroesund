@@ -33,7 +33,7 @@ export default function Header() {
                     <HeaderLinks />
                 </nav>
                 <nav className="space-x-6 block md:hidden">
-                    <button className={"bg-red-500 text-white p-2 px-6 cursor-pointer"} onClick={toggleMenu}>{openMenu ? 'Luk menu' : 'Åben menu'}</button>
+                    <button className={"bg-red-500 text-white p-2 px-6 cursor-pointer"} onClick={toggleMenu}>{openMenu ? 'Luk' : 'Menu'}</button>
                 </nav>
             </div>
             <div className={`mt-12 md:hidden ${openMenu ? "block" : "hidden"}`}>
