@@ -8,7 +8,8 @@ export default function Contact({standalone}) {
                 <p className="text-lg mb-4">Har du spørgsmål eller vil du være medlem? Kontakt os gerne.</p>
                 <p>Email: <a href="mailto:kontakt@aa-b.dk"
                              className="hover:underline">kontakt@aa-b.dk</a></p>
-                <p>Adresse: Havnevej 12, 6100 Haderslev</p>
+                <p className={"mt-3"}>Årøsund Bådelaug<br/>Færgevej 106, 6100 Haderslev<br/>Lillebælt Syd Kreds
+                </p>
             </div>
         </section>
     )

@@ -114,7 +114,7 @@ export default function HomePage() {
                     <div className={"max-w-3xl"}>
                         <h3 className={"text-2xl font-bold mb-3"}>Indmeldelse og kontigenter</h3>
                         <p>Hvis du/i kunne tænke jer at melde jer ind i Årøsund Bådelaug kan dette gøres ved at sende en
-                            mail til: baadelaug@aarosund.dk med følgende oplysninger: navn, adresse, telefonnummer,
+                            mail til: <Link className={"hover:underline"} href={"mailto:kontakt@aa-b.dk"}>kontakt@aa-b.dk</Link> med følgende oplysninger: navn, adresse, telefonnummer,
                             e-mail og fødselsdag.</p>
                         <div className={"border-b-1 flex justify-between items-center mt-8 pb-4"}>
                             <h4>Aktiv medlemskab</h4>
