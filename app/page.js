@@ -70,7 +70,7 @@ export default function HomePage() {
                                 super tilbud på både ansvars og kasko-forsikring på båden, mulighed for at bruge DS
                                 ankerbøjerne rundt om i Danmark, samt et væld af andre tilbud. </p>
                             <div className={"mt-2"}>
-                                <Link href="https://facebook.com"
+                                <Link href="https://dansksejlunion.dk/klubber/aaroesund-baadelaug"
                                       className={"bg-red-500 hover:bg-red-600 p-3 px-6 text-white "}>Dansk
                                     Sejlunion</Link>
                             </div>
