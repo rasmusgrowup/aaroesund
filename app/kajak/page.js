@@ -9,7 +9,7 @@ export default function Page() {
             {/* Hero section */}
             <section className="text-white flex justify-center items-center h-[40vw] overflow-hidden relative">
                 <Image src="/Kajak_hero.jpg" alt="Årøsund udsigt  af både" layout="fill" objectFit="cover"
-                       objectPosition={"center"}/>
+                       objectPosition={"center"} priority={true}/>
                 <h1 className={"absolute text-3xl md:text-5xl font-bold text-center p-2"}>ÅB Kajak</h1>
             </section>
 

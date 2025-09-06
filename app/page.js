@@ -10,7 +10,7 @@ export default function HomePage() {
                 {/* Hero section */}
                 <section className="text-white flex justify-center items-center h-[80vw] md:h-[40vw] overflow-hidden relative">
                     <Image src="/Hero.jpg" alt="Årøsund udsigt  af både" layout="fill" objectFit="cover"
-                           objectPosition={"center"}/>
+                           objectPosition={"center"} priority={true}/>
                     <h1 className={"absolute text-3xl md:text-5xl font-bold text-center p-6"}>Velkommen til Årøsund
                         Bådelaug{"'s"} hjemmeside</h1>
                 </section>
