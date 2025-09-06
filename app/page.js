@@ -8,7 +8,8 @@ export default function HomePage() {
         <main className="bg-white text-gray-800">
             <div className="mx-auto">
                 {/* Hero section */}
-                <section className="text-white flex justify-center items-center h-[80vw] md:h-[40vw] overflow-hidden relative">
+                <section
+                    className="text-white flex justify-center items-center h-[80vw] md:h-[40vw] overflow-hidden relative">
                     <Image src="/Hero.jpg" alt="Årøsund udsigt  af både" layout="fill" objectFit="cover"
                            objectPosition={"center"} priority={true}/>
                     <h1 className={"absolute text-3xl md:text-5xl font-bold text-center p-6"}>Velkommen til Årøsund
@@ -57,8 +58,7 @@ export default function HomePage() {
                         <div className={"md:my-12"}>
                             <Image src={"/facebook-icon.png"} alt={"facebook-icon"} width={"28"} height={"28"}/>
                             <p className={"py-6"}>Følg livets gang i vores bådelaug på facebook. Her vil der ugentlig
-                                blive
-                                lagt video, billeder og andet op omkring vores bådelaug.</p>
+                                blive lagt video, billeder og andet op omkring vores bådelaug.</p>
                             <div className={"mt-3"}>
                                 <Link href="https://facebook.com"
                                       className={"bg-blue-500 hover:bg-blue-600 p-3 px-6 text-white "}>Facebookgruppen</Link>
@@ -66,12 +66,13 @@ export default function HomePage() {
                         </div>
                         <div className={"my-12"}>
                             <Image src={"/DS_logo.png"} alt={"facebook-icon"} width={"150"} height={"40"}/>
-                            <p className={"py-6"}>Følg livets gang i vores bådelaug på facebook. Her vil der ugentlig
-                                blive
-                                lagt video, billeder og andet op omkring vores bådelaug.</p>
+                            <p className={"py-6"}>Som medlem af Dansk Sejlunion får du nogle helt specielle tilbud bl.a.
+                                super tilbud på både ansvars og kasko-forsikring på båden, mulighed for at bruge DS
+                                ankerbøjerne rundt om i Danmark, samt et væld af andre tilbud. </p>
                             <div className={"mt-2"}>
                                 <Link href="https://facebook.com"
-                                      className={"bg-red-500 hover:bg-red-600 p-3 px-6 text-white "}>Facebookgruppen</Link>
+                                      className={"bg-red-500 hover:bg-red-600 p-3 px-6 text-white "}>Dansk
+                                    Sejlunion</Link>
                             </div>
                         </div>
                     </div>
@@ -86,18 +87,21 @@ export default function HomePage() {
                             <p>Vores kajakafdeling har ugentlige ro aftner, hvor man kan låne en klubkajak eller har
                                 mulighed for at opbevare sin egen kajak.</p>
                             <div className={"mt-6"}>
-                                <Link href="/kajak/page" className={"bg-red-500 hover:bg-red-600 mt-1 p-3 px-6 text-white "}>Læs
+                                <Link href="/kajak/page"
+                                      className={"bg-red-500 hover:bg-red-600 mt-1 p-3 px-6 text-white "}>Læs
                                     mere</Link>
                             </div>
                         </div>
                         <div className={"basis-1/3 mb-15 md:mb-0"}>
-                            <Image src={"/Tirsdagssejlads.jpg"} alt={"Kajak"} layout={"responsive"} width={"700"} height={"500"}/>
+                            <Image src={"/Tirsdagssejlads.jpg"} alt={"Kajak"} layout={"responsive"} width={"700"}
+                                   height={"500"}/>
                             <h3 className={"font-bold mt-4 mb-2"}>Tirsdagssejlads</h3>
                             <p>Hver tirsdag i sæsonen, afholdes der kapsejlads for kølbåde, hvor alle er velkommen
                                 uanset erfaring med kapsejlads. Deltagelse koster 100 kr pr. sæson pr. båd.</p>
                         </div>
                         <div className={"basis-1/3 mb-15 md:mb-0"}>
-                            <Image src={"/Klubhus.jpg"} alt={"Kajak"} layout={"responsive"} width={"700"} height={"500"}/>
+                            <Image src={"/Klubhus.jpg"} alt={"Kajak"} layout={"responsive"} width={"700"}
+                                   height={"500"}/>
                             <h3 className={"font-bold mt-4 mb-2"}>Klubhus</h3>
                             <p>Årøsund Bådelaug holder til i den ene ende af medborgerhuset. Som medlem har man fri
                                 adgang hertil. Det er også her vi holder vores små arrangementer, møder osv.</p>
@@ -135,7 +139,7 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
-            <Contact />
+            <Contact/>
         </main>
     );
 }
