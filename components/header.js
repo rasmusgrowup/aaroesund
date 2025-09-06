@@ -37,7 +37,7 @@ export default function Header() {
                 </nav>
             </div>
             <div className={`mt-12 md:hidden ${openMenu ? "block" : "hidden"}`}>
-                <HeaderLinks />
+                <HeaderLinks onClick={setOpenMenu(false)}/>
             </div>
         </header>
     )
