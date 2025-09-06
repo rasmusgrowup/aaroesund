@@ -22,6 +22,8 @@ export default function Header() {
         setOpenMenu(!openMenu);
     }
 
+    const closeMenu = () => setOpenMenu(false)
+
     return (
         <header className="max-w-7xl mx-auto p-6">
             <div className="container mx-auto flex justify-between items-center">
@@ -36,8 +38,8 @@ export default function Header() {
                     <button className={"bg-red-500 text-white p-2 px-6 cursor-pointer"} onClick={toggleMenu}>{openMenu ? 'Luk' : 'Menu'}</button>
                 </nav>
             </div>
-            <div className={`mt-12 md:hidden ${openMenu ? "block" : "hidden"}`}>
-                <HeaderLinks onClick={setOpenMenu(false)}/>
+            <div className={`mt-12 md:hidden ${openMenu ? "block" : "hidden"}`} onClick={closeMenu}>
+                <HeaderLinks/>
             </div>
         </header>
     )
