@@ -25,7 +25,7 @@ export default function Header() {
     const closeMenu = () => setOpenMenu(false)
 
     return (
-        <header className="max-w-7xl mx-auto p-6">
+        <header className="max-w-7xl mx-auto p-6 w-full inset-x-0">
             <div className="container mx-auto flex justify-between items-center">
                 <Link href={"/"} className="flex items-center">
                     <Image src={"/Logo_alt.jpg"} alt="logo" width={"75"} height={"40"}/>
