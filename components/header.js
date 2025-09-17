@@ -5,8 +5,8 @@ import Image from "next/image";
 import React, {useState} from "react";
 import ConventusLoginModal from "@/components/ConventusLoginModal";
 
-function HeaderLinks({ onNavigate, onLogin }) {
-    return(
+function HeaderLinks({onNavigate, onLogin}) {
+    return (
         <>
             <Link onClick={onNavigate} href="/"
                   className="block md:inline text-2xl md:text-base mb-2 md:mb-0 hover:underline hover:text-red-500">Forside</Link>
@@ -15,7 +15,9 @@ function HeaderLinks({ onNavigate, onLogin }) {
                     className="block md:inline text-2xl md:text-base mb-2 md:mb-0 hover:underline hover:text-red-500">Medlemslogin
             </button>
             */}
-            <Link onClick={onNavigate} href="https://www.conventus.dk/medlemslogin/index.php?forening=3446" target={"_blank"}>Medlemslogin</Link>
+            <Link onClick={onNavigate} href="https://www.conventus.dk/medlemslogin/index.php?forening=3446"
+                  target={"_blank"}
+                  className="block md:inline text-2xl md:text-base mb-2 md:mb-0 hover:underline hover:text-red-500">Medlemslogin</Link>
             <Link onClick={onNavigate} href="/kajak"
                   className="block md:inline text-2xl md:text-base mb-2 md:mb-0 hover:underline hover:text-red-500">Kajak</Link>
             <Link onClick={onNavigate} href="/kontakt"
@@ -47,7 +49,8 @@ export default function Header() {
                     <HeaderLinks onNavigate={closeMenu} onLogin={openLogin}/>
                 </nav>
                 <nav className="space-x-6 block md:hidden">
-                    <button className={"bg-red-500 text-white p-2 px-6 cursor-pointer"} onClick={toggleMenu}>{openMenu ? 'Luk' : 'Menu'}</button>
+                    <button className={"bg-red-500 text-white p-2 px-6 cursor-pointer"}
+                            onClick={toggleMenu}>{openMenu ? 'Luk' : 'Menu'}</button>
                 </nav>
             </div>
             <div className={`mt-12 md:hidden ${openMenu ? "block" : "hidden"}`} onClick={closeMenu}>
