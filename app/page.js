@@ -42,15 +42,6 @@ export default function HomePage() {
                             samt selvfølgelig vores generalforsamling.
                         </p>
                         <p className="text mb-6">
-                            En af de altid tilbagevendende begivenheder er optagning og isætning af vores både. Vi
-                            udsender nogle faste weekender, hvor vi sætter i eller tager op. De weekender hjælper vi
-                            hinanden med bådene, så man står aldrig alene med den store opgave det er, at flytte sin
-                            båd
-                            op eller i. For at vi også de dage kan hygge lidt, er ÅB vært med rundstykker, kaffe
-                            osv.
-                            for medlemmerne.
-                        </p>
-                        <p className="text mb-6">
                             Vi glæder os til at se jer i vores dejlige fællesskab.
                         </p>
                     </div>
@@ -114,27 +105,23 @@ export default function HomePage() {
                     <div className={"max-w-3xl"}>
                         <h3 className={"text-2xl font-bold mb-3"}>Indmeldelse og kontigenter</h3>
                         <p>Hvis du/i kunne tænke jer at melde jer ind i Årøsund Bådelaug kan dette gøres ved at sende en
-                            mail til: <Link className={"hover:underline"} href={"mailto:kontakt@aa-b.dk"}>kontakt@aa-b.dk</Link> med følgende oplysninger: navn, adresse, telefonnummer,
+                            mail til: <Link className={"hover:underline"} href={"mailto:baadelaug@aarosund.dk"}>baadelaug@aarosund.dk</Link> med følgende oplysninger: navn, adresse, telefonnummer,
                             e-mail og fødselsdag.</p>
                         <div className={"border-b-1 flex justify-between items-center mt-8 pb-4"}>
-                            <h4>Aktiv medlemskab</h4>
-                            <h4>450 kr.</h4>
+                            <h4>Aktivt medlemskab</h4>
+                            <h4>500 kr.</h4>
                         </div>
                         <div className={"border-b-1 flex justify-between items-center mt-4 pb-4"}>
                             <h4>Aktiv ægtefælle/samlever medlemsskab</h4>
-                            <h4>250 kr.</h4>
-                        </div>
-                        <div className={"border-b-1 flex justify-between items-center mt-4 pb-4"}>
-                            <h4>Passiv medlemskab</h4>
-                            <h4>250 kr.</h4>
+                            <h4>300 kr.</h4>
                         </div>
                         <div className={"border-b-1 flex justify-between items-center mt-4 pb-4"}>
                             <h4>Junior medlemskab (1-20år)</h4>
-                            <h4>200 kr.</h4>
+                            <h4>250 kr.</h4>
                         </div>
                         <div className={"border-b-1 flex justify-between items-center mt-4 pb-4"}>
-                            <h4>ÅB Kajak (forudsætter aktiv medlemsskab)</h4>
-                            <h4>250 kr.</h4>
+                            <h4>ÅB Kajak (forudsætter aktivt medlemsskab)</h4>
+                            <h4>300 kr.</h4>
                         </div>
                     </div>
                 </section>
